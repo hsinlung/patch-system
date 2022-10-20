@@ -1,9 +1,10 @@
 .container {
-    height: 100vh;
+    height: 95vh;
     background-color: #ffffff;
     display: flex;
     justify-content: flex-start;
     align-items: stretch;
+    padding-top: 1em;
 }
 
 [data-prefers-color='dark'] .container {
@@ -32,11 +33,12 @@
 }
 
 .title {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 0.5em 0;
+    height: 5vh;
+    /*font-size: 1.5em;*/
+    /*font-weight: bold;*/
+    /*margin: 0.5em 0;*/
 }
 
 .search {
-    margin: 0.5em 0;
+    padding-top: 0.5em;
 }
